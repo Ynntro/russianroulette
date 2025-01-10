@@ -7,8 +7,5 @@
      In order to do this, drag the file to delete when you die into this project's folder, and either rename it to life.txt, either change the values in the Python code, lines 82 and 95.
      Please also note that whenever you restart the game, it will automatically generate you a new life.txt file, if you died in the previous game.
 
-Thanks for playing this game, 
 
-            I hope you will survive.
-
-                                                                                                                        - ynntro
+Good luck!

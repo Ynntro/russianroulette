@@ -41,15 +41,14 @@ time.sleep(1)
 
 
 def russian_roulette():
-    global guessamount  # Declare guessamount as a global variable
+    global guessamount
     guessamount = 0
     death = random.randint(1, 6)
 
     def tries():
-        global guessamount  # Declare guessamount as a global variable within tries
+        global guessamount
         guess = input(f'Enter a number between 1 and 6. You already tried {guessamount} slots out of 6.\n> ')
         
-        # Ensure input is a valid number
         if not guess.isdigit():
             print("Don't try to escape your faith.")
             return tries()

@@ -1,5 +1,7 @@
+I made this little game for you to risk your files :)
+
+
 The file life.txt represents your life. Once you die in the game, the file will be deleted, meaning that your life is deleted. AKA death.
-If you want to replay the game, pl
 
 You can change the file that gets deleted to whatever file you want to. Try to avoid system32 though..
     In order to do this, drag the file to delete when you die into this project's folder, and either rename it to life.txt, either change the values in the Python code, lines 82 and 95.
